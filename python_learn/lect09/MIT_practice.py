@@ -287,20 +287,20 @@ while iteration < 5:
 # x = 23
 # epsilon = 0.01
 # step = 0.1
-# guess = 0.0
+# guess_number = 0.0
 # num_guess = 0
 #
-# while abs(guess**2-x) >= epsilon:
-#     if guess <= x:
-#         guess += step
+# while abs(guess_number**2-x) >= epsilon:
+#     if guess_number <= x:
+#         guess_number += step
 #         num_guess += 1
 #     else:
 #         break
 #
-# if abs(guess**2 - x) >= epsilon:
+# if abs(guess_number**2 - x) >= epsilon:
 #     print('failed')
 # else:
-#     print('succeeded: ' + str(guess))
+#     print('succeeded: ' + str(guess_number))
 # print(num_guess)
 
 # """
@@ -314,21 +314,21 @@ while iteration < 5:
 # guessed = False
 # # 一下进行猜测循环
 # while not guessed:
-#     guess = (hi + lo)//2
-#     print("你心中想象的数字是：{}?".format(guess))
+#     guess_number = (hi + lo)//2
+#     print("你心中想象的数字是：{}?".format(guess_number))
 #     user_inp = input("如果显示的数据比你大，请输入h；"
 #                      "如果现实的数据比你小，请输入l；"
 #                      "如果显示的数据和你一样，请输入c！")
 #     if user_inp == 'c':
 #         guessed = True
 #     elif user_inp == 'h':
-#         hi = guess
+#         hi = guess_number
 #     elif user_inp == 'l':
-#         lo = guess
+#         lo = guess_number
 #     else:
 #         print("对不起，您输入的不正确")
 #
-# print('游戏结束，你心中想的数字是：{}'.format(guess))
+# print('游戏结束，你心中想的数字是：{}'.format(guess_number))
 
 
 # # -*- coding: utf-8 -*-
@@ -340,14 +340,14 @@ while iteration < 5:
 #
 # epsilon = 0.01
 # y = 54.0
-# guess = y/2.0
+# guess_number = y/2.0
 # numGuesses = 0
 #
-# while abs(guess*guess - y) >= epsilon:
+# while abs(guess_number*guess_number - y) >= epsilon:
 #     numGuesses += 1
-#     guess = guess - (((guess**2) - y)/(2*guess))
+#     guess_number = guess_number - (((guess_number**2) - y)/(2*guess_number))
 # print('numGuesses = {}'.format(numGuesses))
-# print('Square root of {} is about {}'.format(y , guess))
+# print('Square root of {} is about {}'.format(y , guess_number))
 
 # x = 12
 # def g(x):
